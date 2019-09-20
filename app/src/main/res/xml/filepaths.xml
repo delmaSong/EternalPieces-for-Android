@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<external-path name="storage/emulated" path="./"/>-->
+<!--</PreferenceScreen>-->
+
+<paths>
+    <files-path
+        name="name"
+        path="/Pictures/delma"/>
+    <cache-path
+        name="name"
+        path="/Pictures/delma"/>
+    <external-path
+        name="name"
+        path="/Pictures/delma"/>
+    <external-files-path
+        name="name"
+        path="/Pictures/delma"/>
+    <external-cache-path
+        name="name"
+        path="/Pictures/delma"/>
+
+</paths>

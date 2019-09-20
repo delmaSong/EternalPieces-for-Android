@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+
+    <LinearLayout
+        android:id="@+id/item_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="후기 제목"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tt_contents"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="후기내용 이래서 좋았고 저래서 어땠고 아팠고 예쁘고 만족하고 다음에 또 오고싶고 등등 등 후기내용 이래서 좋았고 저래서 어땠고 아팠고 예쁘고 만족하고 다음에 또 오고싶고 등등 등 후기내용 이래서 좋았고 저래서 어땠고 아팠고 예쁘고 만족하고 다음에 또 오고싶고 등등 등 후기내용 이래서 좋았고 저래서 어땠고 아팠고 예쁘고 만족하고 다음에 또 오고싶고 등등 등 " />
+
+            <ImageView
+                android:id="@+id/item_img1"
+                android:layout_width="132dp"
+                android:layout_height="132dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/tattoo9" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:numStars="5"
+                android:progressBackgroundTint="#747474"
+                android:progressTint="#F1C23C"
+                android:rating="3.5"
+                android:stepSize="0.5"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tt_user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="유저아이디"
+                android:textStyle="bold"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tt_write_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="해당 글 쓴 날짜값 끌어오기"
+                android:textStyle="normal" />
+
+        </TableRow>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

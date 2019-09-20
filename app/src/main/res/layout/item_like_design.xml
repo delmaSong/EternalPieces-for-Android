@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:id="@+id/item_like"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/item_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tattoo4" />
+
+            <ToggleButton
+                android:id="@+id/item_tb1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/like"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textOn=""
+                android:textOff=""/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="tattooist_lala"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/item_contents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            tools:text="크레용 질감의 컬러 작품 위주로 합니다. 이태원에 위치해 있습니다."/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="part">
+        <item>선택하기</item>
+        <item>목</item>
+        <item>어깨</item>
+        <item>팔 상단-안</item>
+        <item>팔 상단-밖</item>
+        <item>팔 하단-안</item>
+        <item>팔 하단-밖</item>
+        <item>허리</item>
+        <item>배</item>
+        <item>허벅지-안</item>
+        <item>허벅지-밖</item>
+        <item>종아리-밖</item>
+        <item>종아리-안</item>
+        <item>무릎</item>
+        <item>발목</item>
+        <item>발등</item>
+        <item>기타</item>
+    </string-array>
+
+
+</resources>

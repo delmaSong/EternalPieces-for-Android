@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.LoadingActivity"
+            android:theme="@style/LoadingTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.MainActivity"></activity>
+        <activity android:name=".Activities.BookingActivity" />
+        <activity android:name=".Activities.DesignActivity" />
+        <activity android:name=".Activities.FindArtistActivity" />
+        <activity android:name=".Activities.FindStyleActivity" />
+        <activity android:name=".Activities.JoinActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.PayActivity" />
+        <activity android:name=".Activities.MainAfterLoginActivity" />
+        <activity android:name=".Activities.JoinTattooistActivity" />
+        <activity android:name=".Activities.UploadDesign"/>
+        <activity android:name=".Activities.UploadWork"/>
+        <activity android:name=".Activities.TattooistChatList"/>
+        <activity android:name=".Activities.WriteReview"/>
+        <activity android:name=".Activities.TattooistMypageDesign"/>
+        <activity android:name=".Activities.TattooistMypageReview"/>
+        <activity android:name=".Activities.TattooistMypageWork"/>
+        <activity android:name=".Activities.TattooerChatList"/>
+        <activity android:name=".Activities.TattooistBookingList"/>
+        <activity android:name=".Activities.TattooistBookingListDetail"/>
+        <activity android:name=".Activities.BookingList"/>
+        <activity android:name=".Activities.SetWorktimeWhenJoin"/>
+        <activity android:name=".Activities.LikeDesign"/>
+        <activity android:name=".Activities.LikeArtist"/>
+        <activity android:name=".Activities.ChatWithAsk"/>
+        <activity android:name=".Activities.ChatWithDesign"/>
+        <activity android:name=".Activities.EditMypageTattooist"/>
+        <activity android:name=".Activities.FindStyleBGActivity"/>
+        <activity android:name=".Activities.FindStyleCoverUpActivity"/>
+        <activity android:name=".Activities.FindStyleCrayonActivity"/>
+        <activity android:name=".Activities.FindStyleLetteringActivity"/>
+        <activity android:name=".Activities.SetWorktime"/>
+        <activity android:name=".Activities.JoinTattooistNext"/>
+        <activity android:name=".Activities.TattooistMypageEdit"/>
+        <activity android:name=".Activities.MypageDesign"/>
+        <activity android:name=".Activities.MypageWork"/>
+        <activity android:name=".Activities.MypageReview"/>
+        <activity android:name=".Activities.MypageEdit"/>
+        <activity android:name=".Activities.BookingListTattooistGetTattoo"/>
+
+        <provider
+            android:authorities="${applicationId}.fileprovider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+</manifest>

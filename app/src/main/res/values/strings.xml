@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Eternal Pieces</string>
+
+    <string-array name="spinner_do">
+    <item>지역을 선택해주세요</item>
+    <item>서울</item>
+    <item>인천</item>
+    <item>부산</item>
+</string-array>
+
+    <string-array name="spinner_select">
+        <item>지역을 선택해주세요</item>
+    </string-array>
+
+    <string-array name="spinner_do_seoul">
+        <item>전체</item>
+        <item>마포구</item>
+        <item>서대문구</item>
+        <item>은평구</item>
+
+    </string-array>
+
+    <string-array name="spinner_do_incheon">
+        <item>전체</item>
+        <item>강화군</item>
+        <item>계양구</item>
+        <item>남구</item>
+    </string-array>
+
+    <string-array name="spinner_do_busan">
+        <item>전체</item>
+        <item>연제구</item>
+        <item>동래구</item>
+        <item>부산진구</item>
+    </string-array>
+</resources>
