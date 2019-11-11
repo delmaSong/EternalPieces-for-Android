@@ -12,7 +12,8 @@ Functions
 - 타티스트/타투어로 분기해 가입
 - 타티스트의 경우 시술장소, 프로필사진, 간단한 소개, 시술가능한 요일 및 시간정보 입력받음 
 <img src="./images/main.png" width="150px" height="300px"></img>
-![Alt text](/images/join.png)
+![main](https://user-images.githubusercontent.com/40784518/68589386-1a0ca880-04cf-11ea-8634-24531211296b.png)
+
 
 Versioning
 ----------
