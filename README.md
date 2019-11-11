@@ -11,9 +11,12 @@ Functions
 회원가입 
 - 타티스트/타투어로 분기해 가입
 - 타티스트의 경우 시술장소, 프로필사진, 간단한 소개, 시술가능한 요일 및 시간정보 입력받음 
-<img src="./images/main.png" width="150px" height="300px"></img>
-![main](https://user-images.githubusercontent.com/40784518/68589386-1a0ca880-04cf-11ea-8634-24531211296b.png)
 
+![main](https://user-images.githubusercontent.com/40784518/68589386-1a0ca880-04cf-11ea-8634-24531211296b.png)
+![join](https://user-images.githubusercontent.com/40784518/68589476-4f18fb00-04cf-11ea-981b-bc691c5a3e48.png)
+![join2](https://user-images.githubusercontent.com/40784518/68589511-6657e880-04cf-11ea-83b2-b8842ebbffb7.png)
+![join3](https://user-images.githubusercontent.com/40784518/68589534-740d6e00-04cf-11ea-9087-bd33e5fd0931.png)
+![join4](https://user-images.githubusercontent.com/40784518/68589552-812a5d00-04cf-11ea-9622-4725450ff668.png)
 
 Versioning
 ----------
