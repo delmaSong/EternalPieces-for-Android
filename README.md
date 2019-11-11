@@ -21,7 +21,16 @@ Functions
 #로그인
 - 자동로그인 기능 구현
 - 비회원 / 타투어 / 타티스트 역할에 따라 이용 가능한 기능이 다름 
+
 ![login](https://user-images.githubusercontent.com/40784518/68589623-bdf65400-04cf-11ea-9573-23f77c72c27a.png)
+
+#스타일찾기#
+- 스타일 별로 분류되어 있어 손쉽게 원하는 스타일 검색 가능 
+- 각 도안 선택시 도안 상세정보 화면으로 이동
+- 로그인한 유저는 예약하기 버튼으로 예약 가능 
+
+![findStyle](https://user-images.githubusercontent.com/40784518/68589729-0b72c100-04d0-11ea-8377-626da484b15f.png)
+![findStyle2](https://user-images.githubusercontent.com/40784518/68589746-1594bf80-04d0-11ea-880f-defcd778f907.png)
 
 Versioning
 ----------
