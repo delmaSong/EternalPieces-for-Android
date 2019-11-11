@@ -2,11 +2,8 @@ Eternal Pieces for Android
 ==========================
 
 원하는 스타일의 도안을 쉽게 찾아볼 수 있고 예약할 수 있는 타투 플랫폼 어플
+> 개인 프로젝트로 기획, 디자인, 설계, 개발 기여도 100%
 
-Overview
---------
-<iframe width="544" height="306" src="https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=2244B83567192466CB34ED51FD7A4A9AC4E9&outKey=V1293d2445a70503d9a080e798e7b382bb0e8a12683df34b4cd8a0e798e7b382bb0e8" frameborder="0" allowfullscreen></iframe>
- {% include https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=2244B83567192466CB34ED51FD7A4A9AC4E9&outKey=V1293d2445a70503d9a080e798e7b382bb0e8a12683df34b4cd8a0e798e7b382bb0e8.html id="2244B83567192466CB34ED51FD7A4A9AC4E9&outKey=V1293d2445a70503d9a080e798e7b382bb0e8a12683df34b4cd8a0e798e7b382bb0e8" %}  
 
 
 Functions
@@ -84,5 +81,14 @@ Functions
 
 Versioning
 ----------
-Version 1.0
+Version 1.0 
+
+개발환경
+------
+Java, Android Studio, Trello, Git
+
+정보
+---
+sdy2856@gmail.com
+Github - https://github.com/delmaSong
 
